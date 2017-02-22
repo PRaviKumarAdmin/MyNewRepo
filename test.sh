@@ -1,2 +1,2 @@
 uname -a
-fdisk -l
+cat /etc/hosts

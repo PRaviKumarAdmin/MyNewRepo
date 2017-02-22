@@ -1,0 +1,19 @@
+JIRA Setup Instruction
+
+Create AWS EC2 instance (t2.medium) Make sure All TCP inbound ports are opened for it
+
+Log in to JIRA Server
+
+Do a wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-software-7.3.1-x64.bin
+
+Follow the instructions to install and set set default JDK http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
+
+run ./atlassian-jira-software-7.3.1-x64.bin .This will ask for few instructions .Go with the default instructions
+
+Once completed go to the EC2 instance over your web browser and make sure that its listening on port 8080
+
+Register for a new License
+
+Create user account to Login
+
+Create project create Releases Create stories in back log Pick stories from backlog and add to releases Create sprint Add stories to sprint Start sprint Updates status on each scrum call Close the sprint Close release
